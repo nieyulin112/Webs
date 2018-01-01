@@ -22,4 +22,4 @@ app.use(function*(next) {
 	this.body += ' saved';
 	yield next
 })
-app.listen(3000)
+app.listen(3000);
